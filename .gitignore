@@ -1,0 +1,39 @@
+# Bundler
+/.bundle
+
+# Environment variables (VERY IMPORTANT)
+.env
+.env.*
+!.env.example
+
+# Logs
+/log/*
+!/log/.keep
+
+# Temporary files
+/tmp/*
+!/tmp/.keep
+
+# PID files
+/tmp/pids/*
+!/tmp/pids/.keep
+
+# Storage (uploads)
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/.keep
+
+# SQLite database (IMPORTANT for your project)
+*.sqlite3
+*.sqlite3-journal
+
+# Rails credentials (DO NOT COMMIT SECRETS)
+/config/master.key
+
+# Assets
+/public/assets
+
+# System files
+.DS_Store
+*.swp

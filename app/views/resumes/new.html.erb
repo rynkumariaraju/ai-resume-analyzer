@@ -1,0 +1,14 @@
+<h1>Upload Your Resume</h1>
+
+<%= form_with url: resumes_path, multipart: true do |f| %>
+
+  <p>
+    <%= f.label :resume, "Choose Resume File" %><br>
+    <%= f.file_field :resume %>
+  </p>
+
+  <p>
+    <%= f.submit "Analyze Resume", data: { disable_with: "Analyzing..." } %>
+  </p>
+
+<% end %>
