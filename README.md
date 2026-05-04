@@ -1,24 +1,29 @@
-# README
+# AI resume Analyzer (Rails + OpenAI)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application that allows users to upload a resume (PDF) and receive AI-powered feedback.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 🚀 Features
 
-* System dependencies
+- Upload PDF resume
+- Extract text using PDF Reader
+- Analyze resume using OpenAI API
+- Display AI-generated feedback
 
-* Configuration
+---
 
-* Database creation
+## 🛠 Tech Stack
 
-* Database initialization
+- Ruby on Rails
+- OpenAI API
+- PDF Reader gem
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+## ⚙️ Setup Instructions
 
-* Deployment instructions
-
-* ...
+```bash
+bundle install
+rails db:migrate
+rails s
